@@ -10,8 +10,8 @@ vms:
 
   - name: "agent01.puppetlabs.demo"
     box: "puppetlabs/centos-6.5-64-nocm"
-    roles: [ "pe-puppet-master" ]
+    roles: [ "pe-puppet-agent" ]
 
   - name: "agent02.puppetlabs.demo"
     box: "puppetlabs/ubuntu-14.04-64-nocm"
-    roles: [ "pe-puppet-master" ]
+    roles: [ "pe-puppet-agent" ]
